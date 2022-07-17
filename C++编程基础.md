@@ -67,6 +67,7 @@ i  Essential C++
   - [6.3 template 类型参数的处理](#63-template-类型参数的处理)
   - [6.4 实现一个 Class Template](#64-实现一个-class-template)
   - [6.5 一个以 Function Template 完成的Output 运算符](#65-一个以-function-template-完成的output-运算符)
+  - [6.6 常量表达式与默认参数值](#66-常量表达式与默认参数值)
 
 ## 1 C++ 编程基础
 
@@ -1040,3 +1041,11 @@ new
 2. 如果第一步成功，并有指定的初值，新对象会以最适当的方式被初始化。
 
 ### 6.5 一个以 Function Template 完成的Output 运算符
+
+无
+
+### 6.6 常量表达式与默认参数值
+
+常量表达式也可以作为template 参数。
+
+
