@@ -68,6 +68,8 @@ i  Essential C++
   - [6.4 实现一个 Class Template](#64-实现一个-class-template)
   - [6.5 一个以 Function Template 完成的Output 运算符](#65-一个以-function-template-完成的output-运算符)
   - [6.6 常量表达式与默认参数值](#66-常量表达式与默认参数值)
+  - [6.7 以template 参数作为一种设计策略](#67-以template-参数作为一种设计策略)
+  - [6.8 Member Template Function](#68-member-template-function)
 
 ## 1 C++ 编程基础
 
@@ -1047,5 +1049,19 @@ new
 ### 6.6 常量表达式与默认参数值
 
 常量表达式也可以作为 template 参数。
+
+### 6.7 以template 参数作为一种设计策略
+
+class template 无法基于参数列表的不同而重载
+
+class template 的类型参数不仅能传递元素类型，还能传自定义类？
+
+### 6.8 Member Template Function
+
+看见没，template 还能在类的中间用
+
+class template 也可以定义为member template function.
+
+
 
 
